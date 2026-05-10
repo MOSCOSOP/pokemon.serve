@@ -30,17 +30,28 @@
     <section id="sobre-mi">
       <div class="contenedor">
         <h2>Integrantes</h2>
-        <p>
-           1. Gomez Parraga Jose Riler
-        <p>
-           2. Moscoso Pacahuala Miguel Angel
-        </p>
-           3. Llacua Kamel Paul Russell
-        <p>
-           4. Villar Huamán Frank Mario
-        </p>
-           5. Cabezas Velasquez Jeampier
-        </p>
+        <div class="integrantes-grid">
+          <article class="integrante-card">
+            <div class="integrante-nombre">Gómez Parraga José Riler</div>
+            <div class="integrante-rol">Desarrollador Unity-Figma</div>
+          </article>
+          <article class="integrante-card">
+            <div class="integrante-nombre">Moscoso Pacahuala Miguel Ángel</div>
+            <div class="integrante-rol">Diseño y entorno</div>
+          </article>
+          <article class="integrante-card">
+            <div class="integrante-nombre">Llacua Kamel Paul Russell</div>
+            <div class="integrante-rol">Desarrollador de Scripts-Unity</div>
+          </article>
+          <article class="integrante-card">
+            <div class="integrante-nombre">Villar Huamán Frank Mario</div>
+            <div class="integrante-rol">Desarrollador de Figma</div>
+          </article>
+          <article class="integrante-card">
+            <div class="integrante-nombre">Cabezas Velásquez Jeampier</div>
+            <div class="integrante-rol">Informes Canva - Word</div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -49,24 +60,21 @@
         <h2>Mis Proyectos</h2>
         <div class="proyectos-container">
           <div class="proyecto">
-            <h3>TempTracker</h3>
-            <p>Web para ver el tiempo en linea de cada ciudad</p>
+            <h3>Informe</h3>
+            <p>Informe del proyecto desarrollado en Google Docs.</p>
+            <p><a href="https://docs.google.com/document/d/1i2Y1m0C5MDtgJ881HfgQqIH4xbecteU0/edit" target="_blank">Link</a></p>
           </div>
 
           <div class="proyecto">
-            <h3>Ejemplo 2</h3>
-            <p>
-              Aplicación web para gestión de tareas con funcionalidades de
-              arrastrar y soltar, categorías y recordatorios.
-            </p>
+            <h3>Atrápalos Ya!</h3>
+            <p>Juego de disparo y movimiento donde el jugador elimina enemigos Gastly y suma puntos progresivamente.</p>
+            <p><a href="https://pokemon-space-theta.vercel.app/" target="_blank">Link</a></p>
           </div>
 
           <div class="proyecto">
-            <h3>Ejemplo 3</h3>
-            <p>
-              Sistema de visualización de datos con gráficos interactivos,
-              reportes personalizados y actualización en tiempo real.
-            </p>
+            <h3>Figma</h3>
+            <p>Diseño de la interfaz del juego desarrollado en Figma.</p>
+            <p><a href="https://www.figma.com/design/qbSPefWLqLNXcVWsGt7OZj/space-battle?node-id=0-1&p=f&t=Yx11Tc0YNB1uERhV-0" target="_blank">Link</a></p>
           </div>
         </div>
       </div>
@@ -99,7 +107,7 @@
           <div class="form-group">
             <textarea placeholder="Mensaje" rows="5" required></textarea>
           </div>
-          <button onclick="pop_up('Mensaje enviado correctamante')">
+          <button type="button" onclick="pop_up('Mensaje enviado correctamente')">
             Enviar Mensaje
           </button>
         </form>
